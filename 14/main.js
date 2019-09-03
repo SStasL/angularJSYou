@@ -1,6 +1,7 @@
 var app = angular.module('app', []);
 
 app.controller('mainCtrl', function($scope) {
+    console.log('ctrl scope', $scope)
     $scope.posts = [
         {
             name: "This is post about cats"
