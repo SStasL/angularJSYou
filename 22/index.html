@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF8">
     <title></title>
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body ng-cloak>
-    <!-- {{1+1}} -->
-    <div ng-bind="{{1+1}}"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.js"></script>
     <script src="main.js"></script>
+</head>
+<body>
+    <a href="#!/">home</a>
+    <a href="#!/post">post</a>
+    <ng-view></ng-view>
 </body>
 </html>
